@@ -13,6 +13,7 @@ const COLORS = {
     green:{color:'#1DB7B8'},
     bglight: {color:'#F8FCFF'},
     labelgreen: {color:'#29C47B'},
+    errorRed: {color:'#fc0324'},
     lblue:{backgroundColor:'#E9F5FE'},
     dblue:{color:'#1C7DE7'},
     gray:{color:'#838997'},

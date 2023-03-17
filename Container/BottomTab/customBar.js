@@ -53,10 +53,10 @@ export default function CustomBar({ state, descriptors, navigation }) {
 
                     if (!isFocused && !event.defaultPrevented) {
                         if (route.name==="Home") {
-                            // dispatch(remove())
-                            // setTimeout(() => {
-                            // dispatch(getmovieItems({ page: "0" }))
-                            // }, 500);
+                            dispatch(remove())
+                            setTimeout(() => {
+                            dispatch(getmovieItems({ page: "0" }))
+                            }, 500);
                         }
                         navigation.navigate({ name: route.name, merge: true });
 
