@@ -151,7 +151,7 @@ export default function Search() {
     return (
         <View style={[globalstyle.container, styles.CentreDisabled]}>
             <View style={styles.SearchandSortContainer}>
-                <View style={[styles.TextInput, globalstyle.mt20,]}>
+                <View style={[globalstyle.TextInput, globalstyle.mt20,]}>
                     <TextInput
                         placeholder="Enter Name"
                         style={[Fonts.SIZES.h6, Fonts.COLORS.black, { flex: 1 }]}

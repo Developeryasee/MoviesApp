@@ -6,6 +6,14 @@ export const globalstyle = StyleSheet.create({
         paddingHorizontal: 20,
         justifyContent:'center'
     },
+    TextInput:{
+        flex:1,
+    height:50,
+    borderRadius:6,
+    borderWidth:1,
+    borderColor:'gray',
+    flexDirection:'row',paddingLeft:10,alignItems:'center',marginRight:20
+    },
     //marginTop
     mt5:{
         marginTop:5

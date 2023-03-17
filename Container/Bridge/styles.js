@@ -16,7 +16,7 @@ const styles=StyleSheet.create({
     SearchandSortContainer:{
         flexDirection:'row'
     },
-    SortButton:{
+    SendButton:{
         height: 50, paddingHorizontal: 10, justifyContent: 'center', alignItems: 'center', backgroundColor: '#DEE8FE', alignSelf: 'flex-end', marginTop: 20, borderRadius: 6
     }
 })
