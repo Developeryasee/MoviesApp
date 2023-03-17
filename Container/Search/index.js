@@ -156,6 +156,7 @@ export default function Search() {
                         placeholder="Enter Name"
                         style={[Fonts.SIZES.h6, Fonts.COLORS.black, { flex: 1 }]}
                         value={search}
+                        placeholderTextColor={Fonts.COLORS.gray.color}
                         onChangeText={(txt) => SearchName(txt)}
                     />
                     {

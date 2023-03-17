@@ -26,6 +26,7 @@ export default function Bridge() {
                         placeholder="Enter Name"
                         style={[Fonts.SIZES.h6, Fonts.COLORS.black, { flex: 1 }]}
                         value={Name}
+                        placeholderTextColor={Fonts.COLORS.gray.color}
                         onChangeText={(txt) => setName(txt)}
                     />
                 </View>
